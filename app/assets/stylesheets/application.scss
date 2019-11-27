@@ -1,0 +1,77 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @import 'bootstrap';
+
+#logged_in {
+    color: #13e9ff;
+}
+
+.layout {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image:url("coverphoto2.jpg");
+}
+.about-us {
+    padding-left: 20px;
+    padding-top: 20px
+}
+
+.about-us p {
+    margin: 0% 10%;
+}
+
+.about-us h1 {
+    padding-left: 30%
+}
+
+.image-float {
+    background-image: url("coverphoto.jpg");
+    flex: 60%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.list_row {
+  display: flex;
+  height: 100vh;
+
+}
+
+.list_column {
+  flex: 30%;
+}
+
+
+#row {
+    width: 1140px;
+    margin: 0 auto 0 auto;
+    padding-top: 100px;
+    padding-left: 9px;
+    background-position: center;
+}
+
+// #nav-centering {
+//     margin: 2% 46% 23% 2%;
+// }
+
+#sign-page {
+    background-color: lightgray;
+    height: 100vh;
+    padding-top: 20px;
+    padding-left: 20px;
+}
